@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Gallery</title>
+  <link rel="stylesheet" href="style.css">
+
+
+  <input type="text" id="search-bar" placeholder="Search emojis..."> 
+  <button id="theme-toggle">Toggle Dark Mode</button>
+
+  <form id="add-emoji-form">
+    <input type="text" id="new-emoji-symbol" placeholder="Emoji" required>
+    <input type="text" id="new-emoji-name" placeholder="Name" required>
+    <input type="number" id="new-emoji-code" placeholder="Code" required>
+    <button type="submit">Add Emoji</button>
+  </form>
+  
+
+
+</head>
+<body>
+  <section id="emoji-gallery" class="emoji-gallery"></section>
+  <script src="script.js"></script>
+</body>
+</html>

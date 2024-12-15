@@ -1,0 +1,68 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .dark-mode {
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  .dark-mode .emoji-item {
+    background-color: #444;
+    color: #ddd;
+  }
+  
+  .dark-mode .emoji-item:hover {
+    background-color: #555;
+  }
+  
+
+  #search-bar {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  #search-bar:focus {
+    border-color: #007bff;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .emoji-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+ 
+  .emoji-item {
+    text-align: center;
+  }
+  
+  .emoji {
+    font-size: 3rem;
+  }
+  
+  .code {
+    font-size: 0.875rem;
+    color: #333;
+  }
+  
